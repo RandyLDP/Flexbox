@@ -174,13 +174,19 @@ nav {
 
 
 
-.container2{
-  border: 1px solid black; 
-  display:flex;
-  flex-direction: row;
-  flex:1;
+
+.blogpost {
+  width: 300px;
+  border: 1px solid black;
+
 }
 
+.container2{
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
 .child{
-align-self: flex-end;
+ align-self: flex-end;
 }
